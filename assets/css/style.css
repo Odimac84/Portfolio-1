@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&family=Montserrat&display=swap');
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
@@ -15,6 +17,11 @@ header {
 h1 {
     font-size: 400%;
 }
+
+h1, h2, h3 {
+    font-family: Hahmlet, Helvetica, sans-serif;
+}
+
 .welcome {
     text-transform: uppercase;
     color: #0F0401;
@@ -48,14 +55,14 @@ h1 {
 /* Sections in home */
 
 #upper-section-index {
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 
 #section-about {
     float: left;
     width: 400px;
-    height: 200px;
+    height: 300px;
     background-color: #6B350E;
     color: white;
     margin-left: 245px;
@@ -69,7 +76,7 @@ h1 {
 #section-form {
     float: right;
     width: 400px;
-    height: 200px;
+    height: 300px;
     background-color: #6B350E;
     color: white;
     margin-right: 245px;
@@ -99,14 +106,14 @@ h1 {
 }
 
 #lower-section-index {
-    height: 200px;
+    height: 300px;
     width: 100%;
 }
 
 #pro {
     float: left;
     width: 400px;
-    height: 200px;
+    height: 300px;
     background-color: #6B350E;
     color: #E0E0E0;
     margin-left: 245px;
@@ -115,13 +122,13 @@ h1 {
 #cons {
     float: right;
     width: 400px;
-    height: 200px;
+    height: 300px;
     background-color: #6B350E;
     color: #E0E0E0;
     margin-right: 245px;
 }
 
-#lower-section-index div {
+#lower-section-index > div {
     border: 1px solid #381B07;
     box-sizing: border-box;
 }
@@ -186,6 +193,5 @@ h1 {
 
 .photo img {
     width: 100%;
-    object-fit: cover;
 }
 
