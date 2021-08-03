@@ -209,3 +209,40 @@ h1, h2, h3 {
     width: 100%;
 }
 
+input {
+    display: block;
+   margin-bottom: 10px;
+  margin-bottom: 15px;
+  font-size: 120%;
+}
+
+.adoption-form {
+    margin: 30px 2% 0 0;
+    color: #E0E0E0;
+    background-color: rgba(241, 136, 39, 0.6);
+    max-width: 500px;
+    position: absolute;
+    left: 5%;
+    padding: 20px;
+    font-size: 130%;
+}
+
+.adoption-section {
+    
+    background: url(../images/image9.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    clear: right;
+}
+
+#adopt-button {
+        margin-top: 250px;
+        border-radius: 1px;
+        padding: 10px 20px 10px 20px;
+        text-align: center;
+        font-size: 100%;
+        background-color: #000000;
+        color: #E0E0E0;
+        display: block;
+    }
