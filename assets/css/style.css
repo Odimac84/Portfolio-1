@@ -1,11 +1,11 @@
-* {
+*{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     border: 0;
     color: #381B07;
 }
- /* header and nav  */
+ /* header and nav  for all pages  */
 
 header {
     height: 200px;
@@ -15,28 +15,28 @@ header {
 h1 {
     font-size: 400%;
 }
-
-#welcome {
+.welcome {
     text-transform: uppercase;
     color: #0F0401;
     letter-spacing: 3px;
     text-align: center;
 }
 
-#navigation-bar {
+.navigation-bar {
     font-size: 130%;
     line-height: 40px;
     letter-spacing: 3px;
+    text-align: center;
     }
 
-#navigation-bar li {
+.navigation-bar li {
     list-style-type: none;
     margin-right: 40px;
     margin-bottom: 40px;
-    float: right;
+    display: inline;
     }
 
-#navigation-bar a {
+.navigation-bar a {
     text-decoration: none;
     color: #381B07;
     }
@@ -54,25 +54,35 @@ h1 {
 
 #section-about {
     float: left;
-    width: 50%;
+    width: 400px;
     height: 200px;
     background-color: #6B350E;
     color: white;
-    
+    margin-left: 245px;
+    text-align: center;
     }
+
+#section-about p, h3 {
+    color: white;
+}
 
 #section-form {
     float: right;
-    width: 50%;
+    width: 400px;
     height: 200px;
     background-color: #6B350E;
     color: white;
+    margin-right: 245px;
+    text-align: center;
     }
+
+#section-form p, h3 {
+    color: white;
+}
 
 #upper-section-index div {
     border: 1px solid #381B07;
     box-sizing: border-box ;
-    text-align: "center";
 }
 
 #image1-box {
@@ -95,25 +105,86 @@ h1 {
 
 #pro {
     float: left;
-    width: 50%;
+    width: 400px;
     height: 200px;
     background-color: #6B350E;
-    color: white;
+    color: #E0E0E0;
+    margin-left: 245px;
 }
 
 #cons {
     float: right;
-    width: 50%;
+    width: 400px;
     height: 200px;
     background-color: #6B350E;
-    color: white;
+    color: #E0E0E0;
+    margin-right: 245px;
 }
 
 #lower-section-index div {
     border: 1px solid #381B07;
     box-sizing: border-box;
 }
-     
+  
+
 #paw {
     font-size: 300%;
+    color: #E0E0E0;
 }
+
+#cons li {
+    color: #E0E0E0;
+    margin-left: 30px;
+    font-size: 130%;
+}
+
+#pro li {
+    color: #E0E0E0;
+    margin-left: 30px;
+    font-size: 130%;
+}
+
+#pro h3 {
+    font-size: 200%;
+    color: #E0E0E0;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+#cons h3 {
+    font-size: 200%;
+    color: #E0E0E0;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+/* Footer for all pages*/
+.social {
+    text-align: center;
+}
+
+.social > li {
+    display: inline;
+}
+
+.social i {
+    font-size: 170%;
+    margin: 10px;
+    padding: 10px;
+    color: #381B07;
+}
+
+
+/* Style for gallery */
+
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 1px;
+}
+
+#photo img {
+    width: 100%;
+}
+
