@@ -156,12 +156,12 @@ input {
 }
 
 .adoption-form {
-    margin: 30px 2% 0 0;
+    margin: 30px 1% 0 0;
     color: #E0E0E0;
     background-color: rgba(241, 136, 39, 0.6);
     max-width: 500px;
     position: absolute;
-    left: 5%;
+    left: 2%;
     padding: 20px;
     font-size: 130%;
 }
@@ -203,7 +203,12 @@ input {
 .welcome {
     font-size: 120%;
     }
-    .photo {
-        column-count: 2;
+
+.photo {
+    column-count: 2;
     }
-      }
+      
+.adoption-form {
+    font-size: 100%;
+    }
+}
