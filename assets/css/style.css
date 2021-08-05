@@ -110,7 +110,8 @@ h1 {
 iframe {
     border-radius: 4px;
     border: #6B350E 1px solid;
-    margin-top: 20px; 
+    margin-top: 20px;
+    max-width: 1418px;
 }
 
 /* Footer for all pages*/
@@ -187,6 +188,7 @@ input {
 .flexible-grid {
     display: flex;
     justify-content: space-between;
+    place-content: center;
 }
 .column {
     flex: 1;
