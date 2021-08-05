@@ -241,12 +241,16 @@ input {
 .adoption-form {
     font-size: 100%;
     }
-}
 
-.headings-about {
+    .headings-about {
     font-size: 110%;
 }
 
 .p-about {
     font-size: 100%;
+}
+
+#image10 {
+    height: 300px;
+}
 }
