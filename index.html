@@ -12,8 +12,8 @@
     <title>Home of the german shepherd</title>
 </head>
 <body>
-<header>
-    <h1 class="welcome">Home of the german shepherds</h1>
+<header class="flex-grid">
+    <h1 class="welcome column">Home of the german shepherds</h1>
     <nav class="navigation-bar">
         <ul>
             <li>
@@ -33,48 +33,40 @@
 
 </header>
     
-    <section id="upper-section-index">
-        <div id="section-about" > 
+    <div class="flexible-grid" >
+        <div class="section-up column"> 
             <h3>
                 About Us
             </h3>
-
-            <br> 
 
             <p id="about-p"> 
                We are a non-profitable charity that work with dogs to re-adjust them to a life in a family. 
                If you want to read more about how we work feel free to click the about section.
             </p>
-            <br>
-            <a href="about.html"><i class="fas fa-book-open" id="book"></i></a>
+            <a href="about.html" class="icons"><i class="fas fa-book-open" ></i></a>
         </div>
 
-        <div id="section-form" >
+        <div class="section-up column">
             <h3>
                 Adoption
             </h3> 
 
-            <br>
-
-             
-                <ul id="reason">
+             <ul id="reason">
                 <li>Need a new family member?</li>
                 <li>Want to adopt a german shepherd?</li>
+                <li>Look no further click the paw and adopt one of our dogs that desperate need a home.</li>
                 </ul> 
-                <p>
-                    Look no further click the paw and adopt one of our dogs that desperate need a home.
-                </p> 
-            <br>
-            <a href="form.html"> <i class="fas fa-paw" id="paw"></i></a></div>
-    </section>
+               
+            <a href="form.html" class="icons"> <i class="fas fa-paw" ></i></a></div>
+            </div>
     <br>
-    <div id="image1-box">
-        <div id="image1">
+    <div class="flexible-grid">
+        <div id="image1" class="column">
         </div>
     </div>
     <br>
-    <section id="lower-section-index">
-        <div id="pro" >
+    <div class="flexible-grid">
+        <div class="section-lower column">
             <h3>
                 Pros:
             </h3>
@@ -87,7 +79,7 @@
                 </ul>
             </div>
         </div>
-        <div id="cons">
+        <div class="section-lower column">
             <h3>
                 Cons:
             </h3>
@@ -100,13 +92,17 @@
                 </ul>
             </div>
         </div>
-    </section>
+    </div>
 
-    <iframe src="" frameborder="0"></iframe>
+    <div class="flexible-grid">
+        <iframe  class="column" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2176.1447646293423!2d12.5391441!3d56.946321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4651cc0b52477d73%3A0x474343baa18cbb5a!2sSl%C3%A4ttebergsv%C3%A4gen%204%2C%20311%2099%20Vinberg!5e0!3m2!1sen!2sse!4v1628193208833!5m2!1sen!2sse">
+        </iframe>
+    </div>
+
+<div class="flexible-grid">
+    <footer class="column">
     
-
-<footer>
-    <ul class="social">
+    <ul class="social" >
         <li>
             <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
         </li>
@@ -120,7 +116,8 @@
             <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
         </li>
     </ul>
-</footer>
+    </footer>
+</div>
 <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
 </body>
 </html>

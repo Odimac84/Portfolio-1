@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="dog charity located in Falkenberg, Sweden">
+    <meta name="keywords" content="dog charity, adoption, dog, german shepherd">
     
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <title>Home of the german shepherd</title>
 </head>
 
 <body>
-
-    <header>
-    <h1 class="welcome">Home of the german sheperds</h1>
+<header class="flex-grid">
+    <h1 class="welcome column">Home of the german shepherds</h1>
     <nav class="navigation-bar">
         <ul>
-            <li> 
-                <a href="index.html">Home</a> 
+            <li>
+                <a href="index.html" id="active-page">Home</a> 
             </li>
             <li>
                 <a href="about.html">About</a>
@@ -26,14 +27,14 @@
                 <a href="gallery.html">Gallery</a>
             </li>
             <li>
-                <a href="form.html" id="active-page">Adoption</a>
+                <a href="form.html">Adoption</a>
             </li>
         </ul>
     </nav>
 
-    </header>
-
-        <section class="adoption-section">
+</header>
+    <div class="flex-grid">
+        <section class="adoption-section column">
             <form method="post" action="https://formdump.codeinstitute.net/" class="adoption-form">
                 <h2>
                     Registration of interest
@@ -61,24 +62,27 @@
                 
             </form>
         </section>
+    </div>
 
-<footer>
-    <ul class="social">
-        <li>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
-        </li>
-    </ul>
-</footer>
-
-<script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
-</body>
-</html>
+        <div class="flexible-grid">
+            <footer class="column">
+            
+            <ul class="social" >
+                <li>
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+            </footer>
+        </div>
+        <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+        </body>
+        </html>
