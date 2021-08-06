@@ -196,7 +196,7 @@ input {
     }
 
 .headings-about {
-    text-decoration: underline #E0E0E0 1px ;
+    text-decoration: underline #E0E0E0;
     color: #E0E0E0;
     font-size: 130%;
 }
