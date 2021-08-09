@@ -1,5 +1,8 @@
 ![picture of responsiveness](assets/images/responsive.jpg)
 
+
+# [LINK FOR LIVE VIEW](https://odimac84.github.io/Portfolio-1/index.html)
+
 # Content
 
 1. Introduction
