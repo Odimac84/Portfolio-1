@@ -3,7 +3,7 @@
 # Content
 
 1. Introduction
-2. User experience (UX)
+2. User Experience
 3. Tour of the site
 4. User stories
 5. Testing
@@ -14,37 +14,37 @@
 10. Credits
 
 
-# Introduction
+# Introduction <a name="Introduction"></a>
 
 I´ve created a fictional site for a milestone project at Code Institute,  Diploma in Full Stack Development.
 
-"Home of the german shepherds" is an organisation that provides adoptions for german shepherds. My reasons for doing just this is my personal experience from these dogs and having done just what this site tries to do, recued a german shepherd from an abusive breeder. 
+"Home of the german shepherds" is an organisation that provides adoptions for german shepherds. My reasons for doing just this is my personal experience from these dogs and having done just what this site tries to do, rescued a german shepherd from an abusive breeder. 
 
-# User experience (UX)
+# User experience (UX) <a name="UX"></a>
 
-I went for a simple layout where the viewer would be able to easily find the information they where looking for, this meant having short info about what we are doing and also a picture to catch the eyes off the viewer.
+I went for a simple layout where the viewer would be able to easily find the information they where looking for, this meant having short info about what we are doing and also a picture to catch the eyes from the viewer.
 
 - ## Colors ##
 
-My choice of colors for the page was done by picking out some colors from pictures off teh dogs. This is to include the pictures even more into the design of the page. These colors are fluent throw the entire homepage and will be used in some diffrent ways depending on how i want the part to be highlighted. 
+My choice of colors for the page was done by picking out some colors from pictures off the dogs. This is to include the pictures even more into the design of the page. These colors are fluent through the entire site and will be used in some diffrent ways depending on how i want that element to be highlighted. 
 
 ![picture of responsiveness](assets/images/palette.jpg)
 
 - ## Landing page ## 
 
-As said before i wanted a simple landing page where the information about what we are doing would be seen. This is shown by having the 2 boxes on top of the picture. one short about the orginasation and one about the main feature that being the apoption. throw the boxes you can also use the icons as links and go on to the desired page. complementing this is the Nav bar on top that we will come back to. 
+As said before i wanted a simple landing page where the information about what we are doing would be seen. This is shown by having the two boxes on top of the picture. one short about the organization and one about the main feature that being the adoption. through the boxes you can also use the icons as links and go on to the desired page. Complementing this is the navigation bar on top that we will come back to. 
 
-Below the picture of the dog there are 2 more boxes that will show pros and cons with the breed also information that is there to catch the person that are intrested in adopting a dog.
+Below the picture of the dog there are two more boxes that will show pros and cons with the breed also information that is there to catch the person that are intrested in adopting a dog.
 
 Even further down we will find contact information and an iframe with a map showing the viewer where to find us. 
 
 ![picture of landing page](assets/images/Landing.jpg)
 
-# Tour of the site
+# Tour of the site <a name="Tour"></a>
 
 - ## Navigation ##
 
-The Navigation of the site is located in the header centred. it shows all the diffrent pages of the site and to make it clear to the user where they are the page they currently resides on is underlined.
+The Navigation of the site is located in the header and centred. It shows all the diffrent pages of the site and to make it clear to the user where they currently resides on the site that page is underlined.
 
 I choosed to make the navigation centred since this is where they will have their eyes draw upon entering the page and therefore the links will be natural to find there. 
 
@@ -52,13 +52,13 @@ I choosed to make the navigation centred since this is where they will have thei
 
 - ## Map ##
 
-Here is one of the exeptions i made in having a brown box with white text and looking at it side by side with the map its easy to understand why. the brown box next to a bright map would be looking missplaced, there would not be a visual link between the two.
+Here is one of the exeptions i made in having a brown box with white text and looking at it side by side with the map its easy to understand why. The brown box next to a bright map would be looking missplaced, there would not be a visual link between the two. So i went for a white box with a brown border to still enclose the box but to keep them connected. 
 
 ![picture of Map and address](assets/images/adress.jpg)
 
 - ## Footer ##
 
-The looks of this is telling most of the story. Four links to four diffrent social medias. these will open up in new tabs and are also equipped with aria-labels.
+The looks of this is telling most of the story. Four links to four diffrent social medias. These will open up in new tabs and are also equipped with aria-labels.
 
 ![picture of footer](assets/images/social.jpg)
 
@@ -78,7 +78,7 @@ The page where you want to go if you want to find out more, more about the organ
 
 - ## Adoption ##
 
-The main event, the reason why the site was founded. This is the end-game. This is where we want people to end up. signing up for the intrest of adopting a dog. this is easily done by providing Name and E-mail. This is all that is required. the 3 boxes are optional to tick but would provide extra information to what you wish for. but this information can be collected after and therefore i made the choice to have them optional. 
+The main event, the reason why the site was founded. This is the end-game. This is where we want people to end up. Signing up for the intrest of adopting a dog. This is easily done by providing name and e-mail. This is all that is required. The 3 boxes are optional to tick but would provide extra information to what you wish for. But this information can be collected after and therefore i made the choice to have them optional. 
 
 ![picture of form](assets/images/form.jpg)
 - ## Overall ##
@@ -87,11 +87,11 @@ All pictures on the site has been compressed using [tinypng.com](https://tinypng
 
 ![picture of form](assets/images/tinypng.jpg)
 
-# User stories
+# User stories <a name="userstories"></a>
 
 ## User ##
 
-- As a user i want to get the information i need to make the choiche to adopt.
+- As a user i want to get the information i need to make the choice to adopt.
 
 - As a user i need to feel that i can trust the owner of the website.
 
@@ -109,7 +109,7 @@ All pictures on the site has been compressed using [tinypng.com](https://tinypng
 
 - As a charity i want people to register for intrest so that i can help the dogs i rescued.
 
-# Testing
+# Testing <a name=""></a>
 
 Been running the site through both Lighthouse and [GTgetrix](https://gtmetrix.com/reports/odimac84.github.io/6QmOISNQ/) and result was a 100% performance score on GTmetrix and 98% on Lighthouse. Loading time of the site was set by GTmetrix to 5,7 seconds. 
 
@@ -123,13 +123,13 @@ Been running the site through both Lighthouse and [GTgetrix](https://gtmetrix.co
  
 - What i also found was that using the grid system made the page look nice and tidy all the way up too 1440 px but after that the boxes got to big and therefore i had to set a max-width on these at 700 px.
 
-- The adoption site had a smaller issue where the plavement of it mad the page not beeing able to be resonsive below 370px and the solution for this was to move the top box where we find the form closer to the border and make the margins smaller. and with those changes i could go as low as 320px. 
+- The adoption site had a smaller issue where the placement of it made the page not being able to be responsive below 370px and the solution for this was to move the top box where we find the form closer to the border and make the margins smaller. and with those changes i could go as low as 320px. 
 
 - Site had been tested on diffrent devices such as Desktop (both 1080 screen and 1440p screen), mobile (diffrent sizes) and  Laptop
 
 - It has also been tested in diffrent browsers such as Chrome, Edge, Firefox
 
-# Deploying to github pages
+# Deploying to github pages <a name=""></a>
 
 The process for deployment is documented below:
 
@@ -151,7 +151,7 @@ The process for deployment is documented below:
 
 ![picture of settings github pages](assets/images/git3.jpg)
 
-# Validation
+# Validation <a name=""></a>
 
 Both the HTML and the CSS has been run through Validators and the errors i had been no major ones. 
 
@@ -161,12 +161,48 @@ Both the HTML and the CSS has been run through Validators and the errors i had b
 
 - Doing validation however showed me that alot off my CSS wasent needed, and i cleaned out quite abit without it really matter for the page itself. I had seperate code for boxes that were to carry the same CSS. So even if i had no errors it showed me that a code that works isnt always the best code that you can use. 
 
-# Tech used
+- The only thing left in HTML validation that i wont do nothing about is that HTML validation on my gallery page wants me to use a heading, but using one would only serve the purpose of getting the error to disappear. it wont add nothing to the UX. 
 
+### Links to validation images ###
 
+- [CSS](assets/images/CSSvalidition.jpg)
+- [Index](assets/images/Indexvalidition.jpg)
+- [Gallery](assets/images/galleryvalidation.jpg)
+- [About](assets/images/aboutvalidation.jpg)
+- [Adoption](assets/images/formvalidation.jpg)
 
-# Media
+# Tech used <a name=""></a>
 
-# Credit
+Site is built using HTML5 and CSS3 and apart from that i have got certain elements from other sources that will be mentioned below.
 
+- [GitHub](https://www.github.com)
+    Used for deployment of the project and as a host of the site.
+- [Gitpod](https://www.gitpod.io)
+    Used to write the code for the site, it holds the project with images and files.
+- [FontAwesome](https://fontawesome.com)
+    Used to get icons on the site.
+- [Google APIs](https://www.googleapis.com)
+    Used for the map inside the iframe to show location. 
+- [W3C Markup Validation Service](https://validator.w3.org)
+    Validation of HTML code.
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator)
+    Validation of the CSS code.
+
+- [Grid](https://css-tricks.com/dont-overthink-flexbox-grids/)
+    For the inspiration of the gridsystem
+
+# Media <a name=""></a>
+
+- [Am I Responsive](http://ami.responsivedesign.is/)
+    Used to test out the responsiveness and seeing how it would look on diffrent devices. 
+- [Pexels](https://www.pexels.com/)
+    Used to get pictures for the site that was royalty-free.
+
+# Credit <a name=""></a>
+
+- Special thanks goes put to my mentor Felipe Souza Alarcon for helping me with the project and the ideas that help me bring out a site that im happy with. without him i would not implement the grid-system.
+
+- The sites that we use with free stuff that can help us make beautiful things such as pexels, font awesome and even google.
+
+- slack community, i dont use it much but when i need it they are just as loyal as my german shepherd.
 
